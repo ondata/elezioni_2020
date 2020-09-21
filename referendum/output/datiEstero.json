@@ -1,0 +1,137 @@
+{
+  "int": {
+    "st": "ESERCIZIO",
+    "t_ele": "Referendum",
+    "f_elet": "VOTANTI",
+    "dt_ele": 20200920000000,
+    "l_terr": "ESTERO",
+    "area": "E",
+    "dt_agg": 20200921200313
+  },
+  "note": null,
+  "scheda": [
+    {
+      "cod": 1,
+      "desc": "Referendum Costituzionale - riduzione del numero dei parlamentari"
+    }
+  ],
+  "enti": {
+    "ente_p": {
+      "desc": "ESTERO",
+      "cod": null,
+      "ele_m": null,
+      "ele_f": null,
+      "ele_t": 4537308,
+      "com": [
+        {
+          "com_att": 1,
+          "num_com": 1
+        }
+      ],
+      "com_vot": [
+        {
+          "com": 1,
+          "dt_com": 20200921150000,
+          "scheda": 1,
+          "enti_p": 127,
+          "enti_t": 724,
+          "perc": "20,91",
+          "vot_m": null,
+          "vot_f": null,
+          "vot_t": 96946,
+          "perc_r": null
+        }
+      ]
+    },
+    "enti_f": [
+      {
+        "tipo": "RIPARTIZIONE",
+        "desc": "AFRICA ASIA OCEANIA ANTARTIDE",
+        "cod": 4,
+        "ele_m": null,
+        "ele_f": null,
+        "ele_t": 240330,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 51,
+            "enti_t": 139,
+            "perc": "23,37",
+            "vot_m": null,
+            "vot_f": null,
+            "vot_t": 9077,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "RIPARTIZIONE",
+        "desc": "AMERICA MERIDIONALE",
+        "cod": 2,
+        "ele_m": null,
+        "ele_f": null,
+        "ele_t": 1450677,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 10,
+            "enti_t": 181,
+            "perc": "14,86",
+            "vot_m": null,
+            "vot_f": null,
+            "vot_t": 11763,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "RIPARTIZIONE",
+        "desc": "AMERICA SETTENTRIONALE E CENTRALE",
+        "cod": 3,
+        "ele_m": null,
+        "ele_f": null,
+        "ele_t": 398556,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 7,
+            "enti_t": 67,
+            "perc": "18,67",
+            "vot_m": null,
+            "vot_f": null,
+            "vot_t": 7191,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "RIPARTIZIONE",
+        "desc": "EUROPA",
+        "cod": 1,
+        "ele_m": null,
+        "ele_f": null,
+        "ele_t": 2447745,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 59,
+            "enti_t": 337,
+            "perc": "22,44",
+            "vot_m": null,
+            "vot_f": null,
+            "vot_t": 68915,
+            "perc_r": null
+          }
+        ]
+      }
+    ]
+  }
+}
