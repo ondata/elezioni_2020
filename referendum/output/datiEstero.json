@@ -6,7 +6,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ESTERO",
     "area": "E",
-    "dt_agg": 20200921224209
+    "dt_agg": 20200921225938
   },
   "note": null,
   "scheda": [
@@ -33,12 +33,12 @@
           "com": 1,
           "dt_com": 20200921150000,
           "scheda": 1,
-          "enti_p": 454,
+          "enti_p": 491,
           "enti_t": 724,
-          "perc": "21,12",
+          "perc": "21,27",
           "vot_m": null,
           "vot_f": null,
-          "vot_t": 521028,
+          "vot_t": 576832,
           "perc_r": null
         }
       ]
@@ -56,12 +56,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 121,
+            "enti_p": 131,
             "enti_t": 139,
-            "perc": "19,93",
+            "perc": "18,34",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 34969,
+            "vot_t": 40629,
             "perc_r": null
           }
         ]
@@ -78,12 +78,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 45,
+            "enti_p": 51,
             "enti_t": 181,
-            "perc": "20,52",
+            "perc": "20,11",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 70029,
+            "vot_t": 78672,
             "perc_r": null
           }
         ]
@@ -100,12 +100,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 48,
+            "enti_p": 50,
             "enti_t": 67,
-            "perc": "21,96",
+            "perc": "22,11",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 60903,
+            "vot_t": 65261,
             "perc_r": null
           }
         ]
@@ -122,12 +122,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 240,
+            "enti_p": 259,
             "enti_t": 337,
-            "perc": "21,22",
+            "perc": "21,74",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 355127,
+            "vot_t": 392270,
             "perc_r": null
           }
         ]
