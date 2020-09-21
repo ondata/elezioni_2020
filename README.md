@@ -11,8 +11,6 @@ La **fonte dati** sono le API di Eligendo, che alimentano questo sito <https://e
 
 Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](https://github.com/ondata/elezioni_2020/raw/master/referendum/output/affluenzaComuni.csv).
 
-Alle ore 17:33 del 21 settembre 2020, non sono ancora competi. Viene qui **aggiornato** automaticamente **ogni 15 minuti**.
-
 **Nota bene**: al momento non è conteggiato il voto all'estero.
 
 # Ringraziamenti
