@@ -130,4 +130,35 @@ if [ $code -eq 200 ]; then
 
   mlr --csv cat "$folder"/referendum/processing/affluenzaComuni.csv >"$folder"/referendum/output/affluenzaComuni.csv
 
+  # voto all'estero
+
+  curl 'https://eleapi.interno.gov.it/siel/PX/votantiFE/DE/20200920/TE/09/SK/01' \
+    -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+    -H 'Referer: https://elezioni.interno.gov.it/referendum/votanti/20200920/votantiFE01' \
+    -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
+    -H 'Content-Type: application/json' \
+    --compressed | jq . >"$folder"/referendum/output/datiEstero.json
+
+  jq <"$folder"/referendum/output/datiEstero.json '.enti.ente_p' | mlr --j2c unsparsify >"$folder"/referendum/output/affluenzaEstero.csv
+  jq <"$folder"/referendum/output/datiEstero.json '.enti.enti_f' | mlr --j2c unsparsify >"$folder"/referendum/output/affluenzaRipartizioni.csv
+
+  mlr --c2n cut -f cod referendum/output/affluenzaRipartizioni.csv |
+    while read -r line; do
+      curl 'https://eleapi.interno.gov.it/siel/PX/votantiFE/DE/20200920/TE/09/SK/01/ER/0'"$line"'' \
+        -H 'Connection: keep-alive' \
+        -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+        -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
+        -H 'Content-Type: application/json' \
+        -H 'Origin: https://elezioni.interno.gov.it' \
+        -H 'Sec-Fetch-Site: same-site' \
+        -H 'Sec-Fetch-Mode: cors' \
+        -H 'Sec-Fetch-Dest: empty' \
+        -H 'Referer: https://elezioni.interno.gov.it/referendum/votanti/20200920/votantiFE01'"$line"'' \
+        -H 'Accept-Language: en-US,en;q=0.9' \
+        --compressed | jq . >"$folder"/referendum/rawdata/votantiEstero_0"$line".json
+      jq <"$folder"/referendum/rawdata/votantiEstero_0"$line".json '.enti.enti_f' | mlr --j2c unsparsify >"$folder"/referendum/rawdata/votantiEstero_0"$line".csv
+    done
+
+  mlr --csv unsparsify "$folder"/referendum/rawdata/votantiEstero_0*.csv >"$folder"/referendum/output/datiEstero.csv
+
 fi
