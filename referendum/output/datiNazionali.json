@@ -1,0 +1,1247 @@
+{
+  "int": {
+    "st": "ESERCIZIO",
+    "c_ele": 9,
+    "t_ele": "Referendum",
+    "f_elet": "VOTANTI",
+    "dt_ele": 20200920000000,
+    "l_terr": "ITALIA",
+    "area": "I",
+    "dt_agg": 20200921181315
+  },
+  "note": null,
+  "scheda": [
+    {
+      "cod": 1,
+      "desc": "Referendum Costituzionale - riduzione del numero dei parlamentari"
+    }
+  ],
+  "enti": {
+    "ente_p": {
+      "desc": "ITALIA",
+      "cod": null,
+      "ele_m": 22372720,
+      "ele_f": 24045974,
+      "ele_t": 46418694,
+      "com": [
+        {
+          "cod_reg": null,
+          "com_att": 4,
+          "num_com": 4
+        }
+      ],
+      "com_vot": [
+        {
+          "com": 1,
+          "dt_com": 20200920120000,
+          "scheda": 1,
+          "enti_p": 7903,
+          "enti_t": 7903,
+          "perc": "12,24",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 5683954,
+          "perc_r": null
+        },
+        {
+          "com": 2,
+          "dt_com": 20200920190000,
+          "scheda": 1,
+          "enti_p": 7903,
+          "enti_t": 7903,
+          "perc": "29,68",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 13775462,
+          "perc_r": null
+        },
+        {
+          "com": 3,
+          "dt_com": 20200920230000,
+          "scheda": 1,
+          "enti_p": 7903,
+          "enti_t": 7903,
+          "perc": "39,37",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 18274699,
+          "perc_r": null
+        },
+        {
+          "com": 4,
+          "dt_com": 20200921150000,
+          "scheda": 1,
+          "enti_p": 7902,
+          "enti_t": 7903,
+          "perc": "53,85",
+          "vot_m": 12377050,
+          "vot_f": 12617666,
+          "vot_t": 24994716,
+          "perc_r": null
+        }
+      ]
+    },
+    "enti_f": [
+      {
+        "tipo": "REGIONE",
+        "desc": "ABRUZZO",
+        "cod": 13,
+        "ele_m": 504326,
+        "ele_f": 534979,
+        "ele_t": 1039305,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 305,
+            "enti_t": 305,
+            "perc": "10,61",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 110258,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 305,
+            "enti_t": 305,
+            "perc": "27,31",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 283816,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 305,
+            "enti_t": 305,
+            "perc": "36,47",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 379012,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 305,
+            "enti_t": 305,
+            "perc": "50,79",
+            "vot_m": 264870,
+            "vot_f": 262975,
+            "vot_t": 527845,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "BASILICATA",
+        "cod": 17,
+        "ele_m": 221577,
+        "ele_f": 233442,
+        "ele_t": 455019,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 131,
+            "enti_t": 131,
+            "perc": "9,33",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 42432,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 131,
+            "enti_t": 131,
+            "perc": "24,16",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 109937,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 131,
+            "enti_t": 131,
+            "perc": "36,66",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 166824,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 131,
+            "enti_t": 131,
+            "perc": "50,14",
+            "vot_m": 117789,
+            "vot_f": 110346,
+            "vot_t": 228135,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "CALABRIA",
+        "cod": 18,
+        "ele_m": 732126,
+        "ele_f": 786661,
+        "ele_t": 1518787,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 404,
+            "enti_t": 404,
+            "perc": "8,62",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 130980,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 404,
+            "enti_t": 404,
+            "perc": "22,44",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 340832,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 404,
+            "enti_t": 404,
+            "perc": "32,43",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 492470,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 404,
+            "enti_t": 404,
+            "perc": "45,22",
+            "vot_m": 350634,
+            "vot_f": 336122,
+            "vot_t": 686756,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "CAMPANIA",
+        "cod": 15,
+        "ele_m": 2181342,
+        "ele_f": 2363533,
+        "ele_t": 4544875,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 550,
+            "enti_t": 550,
+            "perc": "12,46",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 566197,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 550,
+            "enti_t": 550,
+            "perc": "29,13",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1324126,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 550,
+            "enti_t": 550,
+            "perc": "42,77",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1944033,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 550,
+            "enti_t": 550,
+            "perc": "61,04",
+            "vot_m": 1387340,
+            "vot_f": 1386721,
+            "vot_t": 2774061,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "EMILIA-ROMAGNA",
+        "cod": 8,
+        "ele_m": 1612361,
+        "ele_f": 1716327,
+        "ele_t": 3328688,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 328,
+            "enti_t": 328,
+            "perc": "14,16",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 471404,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 328,
+            "enti_t": 328,
+            "perc": "32,98",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1097866,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 328,
+            "enti_t": 328,
+            "perc": "41,59",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1384242,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 328,
+            "enti_t": 328,
+            "perc": "55,37",
+            "vot_m": 905976,
+            "vot_f": 937175,
+            "vot_t": 1843151,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "FRIULI-VENEZIA GIULIA",
+        "cod": 6,
+        "ele_m": 456622,
+        "ele_f": 489865,
+        "ele_t": 946487,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 215,
+            "enti_t": 215,
+            "perc": "12,40",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 117373,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 215,
+            "enti_t": 215,
+            "perc": "28,31",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 267915,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 215,
+            "enti_t": 215,
+            "perc": "36,34",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 343948,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 215,
+            "enti_t": 215,
+            "perc": "50,22",
+            "vot_m": 233072,
+            "vot_f": 242240,
+            "vot_t": 475312,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "LAZIO",
+        "cod": 12,
+        "ele_m": 2087400,
+        "ele_f": 2289524,
+        "ele_t": 4376924,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 378,
+            "enti_t": 378,
+            "perc": "10,87",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 475821,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 378,
+            "enti_t": 378,
+            "perc": "25,25",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1105089,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 378,
+            "enti_t": 378,
+            "perc": "33,06",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1447062,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 378,
+            "enti_t": 378,
+            "perc": "45,67",
+            "vot_m": 975150,
+            "vot_f": 1023962,
+            "vot_t": 1999112,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "LIGURIA",
+        "cod": 7,
+        "ele_m": 572786,
+        "ele_f": 638264,
+        "ele_t": 1211050,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 234,
+            "enti_t": 234,
+            "perc": "15,43",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 186917,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 234,
+            "enti_t": 234,
+            "perc": "35,49",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 429758,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 234,
+            "enti_t": 234,
+            "perc": "44,05",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 533507,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 234,
+            "enti_t": 234,
+            "perc": "59,17",
+            "vot_m": 348534,
+            "vot_f": 368027,
+            "vot_t": 716561,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "LOMBARDIA",
+        "cod": 3,
+        "ele_m": 3643227,
+        "ele_f": 3866033,
+        "ele_t": 7509260,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 1506,
+            "enti_t": 1506,
+            "perc": "12,43",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 933159,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 1506,
+            "enti_t": 1506,
+            "perc": "30,91",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 2321150,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 1506,
+            "enti_t": 1506,
+            "perc": "39,01",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 2929233,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 1506,
+            "enti_t": 1506,
+            "perc": "51,36",
+            "vot_m": 1887564,
+            "vot_f": 1969088,
+            "vot_t": 3856652,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "MARCHE",
+        "cod": 11,
+        "ele_m": 571268,
+        "ele_f": 607998,
+        "ele_t": 1179266,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 227,
+            "enti_t": 227,
+            "perc": "14,90",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 175693,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 227,
+            "enti_t": 227,
+            "perc": "36,65",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 432205,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 227,
+            "enti_t": 227,
+            "perc": "47,52",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 560332,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 227,
+            "enti_t": 227,
+            "perc": "66,39",
+            "vot_m": 392188,
+            "vot_f": 390675,
+            "vot_t": 782863,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "MOLISE",
+        "cod": 14,
+        "ele_m": 121089,
+        "ele_f": 127531,
+        "ele_t": 248620,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 136,
+            "enti_t": 136,
+            "perc": "9,76",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 24264,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 136,
+            "enti_t": 136,
+            "perc": "24,18",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 60107,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 136,
+            "enti_t": 136,
+            "perc": "33,33",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 82872,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 135,
+            "enti_t": 136,
+            "perc": "47,44",
+            "vot_m": 60208,
+            "vot_f": 57454,
+            "vot_t": 117662,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "PIEMONTE",
+        "cod": 1,
+        "ele_m": 1615892,
+        "ele_f": 1736005,
+        "ele_t": 3351897,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 1181,
+            "enti_t": 1181,
+            "perc": "12,02",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 402939,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 1181,
+            "enti_t": 1181,
+            "perc": "30,69",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1028601,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 1181,
+            "enti_t": 1181,
+            "perc": "38,80",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1300668,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 1181,
+            "enti_t": 1181,
+            "perc": "51,56",
+            "vot_m": 848488,
+            "vot_f": 879606,
+            "vot_t": 1728094,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "PUGLIA",
+        "cod": 16,
+        "ele_m": 1557539,
+        "ele_f": 1690429,
+        "ele_t": 3247968,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 257,
+            "enti_t": 257,
+            "perc": "13,22",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 429274,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 257,
+            "enti_t": 257,
+            "perc": "30,28",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 983515,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 257,
+            "enti_t": 257,
+            "perc": "43,74",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1420648,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 257,
+            "enti_t": 257,
+            "perc": "61,91",
+            "vot_m": 1009125,
+            "vot_f": 1001680,
+            "vot_t": 2010805,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "SARDEGNA",
+        "cod": 20,
+        "ele_m": 660226,
+        "ele_f": 696918,
+        "ele_t": 1357144,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 377,
+            "enti_t": 377,
+            "perc": "7,76",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 105338,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 377,
+            "enti_t": 377,
+            "perc": "17,02",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 230960,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 377,
+            "enti_t": 377,
+            "perc": "23,41",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 317667,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 377,
+            "enti_t": 377,
+            "perc": "35,70",
+            "vot_m": 239548,
+            "vot_f": 244958,
+            "vot_t": 484506,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "SICILIA",
+        "cod": 19,
+        "ele_m": 1889798,
+        "ele_f": 2068021,
+        "ele_t": 3957819,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 390,
+            "enti_t": 390,
+            "perc": "6,41",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 253575,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 390,
+            "enti_t": 390,
+            "perc": "16,96",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 671243,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 390,
+            "enti_t": 390,
+            "perc": "24,76",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 980079,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 390,
+            "enti_t": 390,
+            "perc": "35,39",
+            "vot_m": 714047,
+            "vot_f": 686535,
+            "vot_t": 1400582,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "TOSCANA",
+        "cod": 9,
+        "ele_m": 1361491,
+        "ele_f": 1477062,
+        "ele_t": 2838553,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 273,
+            "enti_t": 273,
+            "perc": "15,44",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 438139,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 273,
+            "enti_t": 273,
+            "perc": "38,17",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1083597,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 273,
+            "enti_t": 273,
+            "perc": "48,29",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1370869,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 273,
+            "enti_t": 273,
+            "perc": "65,88",
+            "vot_m": 921007,
+            "vot_f": 949136,
+            "vot_t": 1870143,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "TRENTINO-ALTO ADIGE",
+        "cod": 4,
+        "ele_m": 395442,
+        "ele_f": 410606,
+        "ele_t": 806048,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 282,
+            "enti_t": 282,
+            "perc": "16,04",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 129316,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 282,
+            "enti_t": 282,
+            "perc": "40,50",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 326429,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 282,
+            "enti_t": 282,
+            "perc": "54,42",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 438688,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 282,
+            "enti_t": 282,
+            "perc": "70,96",
+            "vot_m": 280648,
+            "vot_f": 291310,
+            "vot_t": 571958,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "UMBRIA",
+        "cod": 10,
+        "ele_m": 321535,
+        "ele_f": 345719,
+        "ele_t": 667254,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 92,
+            "enti_t": 92,
+            "perc": "9,56",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 63802,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 92,
+            "enti_t": 92,
+            "perc": "25,16",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 167857,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 92,
+            "enti_t": 92,
+            "perc": "33,09",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 220811,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 92,
+            "enti_t": 92,
+            "perc": "48,75",
+            "vot_m": 164148,
+            "vot_f": 161171,
+            "vot_t": 325319,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "VALLE D'AOSTA",
+        "cod": 2,
+        "ele_m": 48300,
+        "ele_f": 50710,
+        "ele_t": 99010,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 74,
+            "enti_t": 74,
+            "perc": "18,24",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 18058,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 74,
+            "enti_t": 74,
+            "perc": "44,35",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 43910,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 74,
+            "enti_t": 74,
+            "perc": "56,37",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 55812,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 74,
+            "enti_t": 74,
+            "perc": "73,44",
+            "vot_m": 35875,
+            "vot_f": 36836,
+            "vot_t": 72711,
+            "perc_r": null
+          }
+        ]
+      },
+      {
+        "tipo": "REGIONE",
+        "desc": "VENETO",
+        "cod": 5,
+        "ele_m": 1818373,
+        "ele_f": 1916347,
+        "ele_t": 3734720,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20200920120000,
+            "scheda": 1,
+            "enti_p": 563,
+            "enti_t": 563,
+            "perc": "16,31",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 609015,
+            "perc_r": null
+          },
+          {
+            "com": 2,
+            "dt_com": 20200920190000,
+            "scheda": 1,
+            "enti_p": 563,
+            "enti_t": 563,
+            "perc": "39,27",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1466549,
+            "perc_r": null
+          },
+          {
+            "com": 3,
+            "dt_com": 20200920230000,
+            "scheda": 1,
+            "enti_p": 563,
+            "enti_t": 563,
+            "perc": "51,03",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 1905922,
+            "perc_r": null
+          },
+          {
+            "com": 4,
+            "dt_com": 20200921150000,
+            "scheda": 1,
+            "enti_p": 563,
+            "enti_t": 563,
+            "perc": "67,54",
+            "vot_m": 1240839,
+            "vot_f": 1281649,
+            "vot_t": 2522488,
+            "perc_r": null
+          }
+        ]
+      }
+    ]
+  }
+}
