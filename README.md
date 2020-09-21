@@ -15,4 +15,4 @@ Alle ore 17:33 del 21 settembre 2020, non sono ancora competi. Viene qui **aggio
 
 # Ringraziamenti
 
-Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gl stimoli e la collaborazione.
+Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gli stimoli e la collaborazione.
