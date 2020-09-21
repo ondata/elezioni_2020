@@ -1,3 +1,4 @@
 tmp*
 referendum/rawdata/*.csv
+referendum/processing/scrutini*.csv
 referendum/rawdata/*.json
