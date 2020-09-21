@@ -6,7 +6,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ESTERO",
     "area": "E",
-    "dt_agg": 20200922005142
+    "dt_agg": 20200922012353
   },
   "note": null,
   "scheda": [
@@ -33,12 +33,12 @@
           "com": 1,
           "dt_com": 20200921150000,
           "scheda": 1,
-          "enti_p": 640,
+          "enti_p": 724,
           "enti_t": 724,
-          "perc": "22,96",
+          "perc": "23,30",
           "vot_m": null,
           "vot_f": null,
-          "vot_t": 890546,
+          "vot_t": 1057212,
           "perc_r": null
         }
       ]
@@ -56,9 +56,9 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 136,
+            "enti_p": 139,
             "enti_t": 139,
-            "perc": "19,76",
+            "perc": "19,75",
             "vot_m": null,
             "vot_f": null,
             "vot_t": 47459,
@@ -78,12 +78,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 136,
+            "enti_p": 181,
             "enti_t": 181,
-            "perc": "23,70",
+            "perc": "23,95",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 257663,
+            "vot_t": 347492,
             "perc_r": null
           }
         ]
@@ -100,7 +100,7 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 66,
+            "enti_p": 67,
             "enti_t": 67,
             "perc": "22,49",
             "vot_m": null,
@@ -122,12 +122,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 302,
+            "enti_p": 337,
             "enti_t": 337,
-            "perc": "23,03",
+            "perc": "23,39",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 495803,
+            "vot_t": 572640,
             "perc_r": null
           }
         ]
