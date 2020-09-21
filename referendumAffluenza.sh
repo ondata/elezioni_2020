@@ -15,7 +15,7 @@ rm "$folder"/referendum/processing/*
 
 # scarica anagrafica ripartizioni territoriali
 
-curl 'https://elezioni.interno.gov.it/assets/enti/20200920/referendum_territoriale_italia.json' \
+curl -Lks 'https://elezioni.interno.gov.it/assets/enti/20200920/referendum_territoriale_italia.json' \
   -H 'Accept: application/json, text/javascript, */*; q=0.01' \
   -H 'Referer: https://elezioni.interno.gov.it/referendum/votanti/20200920/votantiFI01' \
   -H 'X-Requested-With: XMLHttpRequest' \
@@ -27,7 +27,7 @@ jq <"$folder"/referendum/rawdata/ita.json '.enti' | mlr --j2t unsparsify then fi
 
 # esegui il loop, scarica dati grezzi in format JSON e produci CSV relativo
 while IFS=$'\t' read -r cod desc PR altro; do
-  curl 'https://eleapi.interno.gov.it/siel/PX/votantiFI/DE/20200920/TE/09/SK/01/PR/'"$PR"'' \
+  curl -Lks 'https://eleapi.interno.gov.it/siel/PX/votantiFI/DE/20200920/TE/09/SK/01/PR/'"$PR"'' \
     -H 'Connection: keep-alive' \
     -H 'Accept: application/json, text/javascript, */*; q=0.01' \
     -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
@@ -57,7 +57,7 @@ mlr -I --tsv put '$codINT=fmtnum($cod_istat,"%04d")' then put -S '$codINT=sub($p
 
 URLcodiciComuni="https://dait.interno.gov.it/territorio-e-autonomie-locali/sut/elenco_codici_comuni_csv.php"
 
-curl "$URLcodiciComuni" \
+curl -Lks "$URLcodiciComuni" \
   -H 'Connection: keep-alive' \
   -H 'Upgrade-Insecure-Requests: 1' \
   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \

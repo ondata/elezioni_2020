@@ -7,7 +7,7 @@ Se li usi, cita questo repository (https://github.com/ondata/elezioni_2020/) e l
 
 ## Affluenza
 
-Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](referendum/processing/affluenzaComuni.csv).
+Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](referendum/output/affluenzaComuni.csv).
 
 Alle ore 17:33 del 21 settembre 2020, non sono ancora competi. Viene qui **aggiornato** automaticamente **ogni 15 minuti**.
 
