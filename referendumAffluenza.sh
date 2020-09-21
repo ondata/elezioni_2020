@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+# set -x
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -87,4 +87,4 @@ rm "$folder"/referendum/processing/*.csv
 
 mlr --t2c cat "$folder"/referendum/processing/affluenzaComuni.tsv >"$folder"/referendum/processing/affluenzaComuni.csv
 
-mlr --csv "$folder"/referendum/processing/affluenzaComuni.csv >"$folder"/referendum/output/affluenzaComuni.csv
+mlr --csv cat "$folder"/referendum/processing/affluenzaComuni.csv >"$folder"/referendum/output/affluenzaComuni.csv
