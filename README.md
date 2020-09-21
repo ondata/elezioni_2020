@@ -10,3 +10,9 @@ Se li usi, cita questo repository (https://github.com/ondata/elezioni_2020/) e l
 Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](referendum/processing/affluenzaComuni.csv).
 
 Alle ore 17:33 del 21 settembre 2020, non sono ancora competi. Viene qui **aggiornato** automaticamente **ogni 15 minuti**.
+
+**Nota bene**: al momento non è conteggiato il voto all'estero.
+
+# Ringraziamenti
+
+Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gl stimoli e la collaborazione.
