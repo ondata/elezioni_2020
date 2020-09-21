@@ -10,8 +10,8 @@ mkdir -p "$folder"/referendum/output
 mkdir -p "$folder"/referendum/processing
 
 # svuota cartella dati grezzi
-rm "$folder"/referendum/rawdata/*
-rm "$folder"/referendum/processing/*
+rm "$folder"/referendum/rawdata/*.json
+rm "$folder"/referendum/processing/*.csv
 
 # URL_check
 URL="https://eleapi.interno.gov.it/siel/PX/votantiFI/DE/20200920/TE/09/SK/01"
@@ -105,16 +105,15 @@ if [ $code -eq 200 ]; then
     -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
     -H 'Accept-Language: en-US,en;q=0.9,it;q=0.8' \
     -H 'Cookie: has_js=1' \
-    --compressed \
-    --insecure >"$folder"/referendum/processing/anagraficaComuni.tsv
+    --compressed  --insecure >"$folder"/referendum/resources/anagraficaComuni.tsv
 
-  mlr -I --icsvlite -N --otsv --ifs ";" clean-whitespace "$folder"/referendum/processing/anagraficaComuni.tsv
-  mlr -I --tsv put -S '${CODICE ISTAT}=gsub(${CODICE ISTAT},"(\"|=)","")' "$folder"/referendum/processing/anagraficaComuni.tsv
+  mlr -I --icsvlite -N --otsv --ifs ";" clean-whitespace "$folder"/referendum/resources/anagraficaComuni.tsv
+  mlr -I --tsv put -S '${CODICE ISTAT}=gsub(${CODICE ISTAT},"(\"|=)","")' "$folder"/referendum/resources/anagraficaComuni.tsv
 
-  mlr -I --tsv put -S '$codINT=sub(${CODICE ELETTORALE},"^(.{1})(.+)$","\2")' "$folder"/referendum/processing/anagraficaComuni.tsv
+  mlr -I --tsv put -S '$codINT=sub(${CODICE ELETTORALE},"^(.{1})(.+)$","\2")' "$folder"/referendum/resources/anagraficaComuni.tsv
 
   # prepara file per JOIN tra dati referendum e anagrafica elettorale
-  mlr --tsv cut -f "CODICE ISTAT",codINT "$folder"/referendum/processing/anagraficaComuni.tsv >"$folder"/referendum/processing/tmp.tsv
+  mlr --tsv cut -f "CODICE ISTAT",codINT "$folder"/referendum/resources/anagraficaComuni.tsv >"$folder"/referendum/processing/tmp.tsv
 
   # fai il JOIN
   mlr --tsv join --ul -j codINT -f "$folder"/referendum/processing/affluenzaComuni.tsv then unsparsify then cut -x -f "cod_istat",codINT "$folder"/referendum/processing/tmp.tsv >"$folder"/referendum/processing/tmp2.tsv
