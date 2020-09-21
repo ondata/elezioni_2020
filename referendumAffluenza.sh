@@ -6,6 +6,7 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # crea cartelle di lavoro
 mkdir -p "$folder"/referendum/rawdata
+mkdir -p "$folder"/referendum/output
 mkdir -p "$folder"/referendum/processing
 
 # svuota cartella dati grezzi
@@ -85,3 +86,5 @@ sed -i -r 's/,/\./g' "$folder"/referendum/processing/affluenzaComuni.tsv
 rm "$folder"/referendum/processing/*.csv
 
 mlr --t2c cat "$folder"/referendum/processing/affluenzaComuni.tsv >"$folder"/referendum/processing/affluenzaComuni.csv
+
+mlr --csv "$folder"/referendum/processing/affluenzaComuni.csv >"$folder"/referendum/output/affluenzaComuni.csv
