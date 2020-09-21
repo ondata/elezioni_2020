@@ -6,7 +6,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ESTERO",
     "area": "E",
-    "dt_agg": 20200921212518
+    "dt_agg": 20200921213421
   },
   "note": null,
   "scheda": [
@@ -33,12 +33,12 @@
           "com": 1,
           "dt_com": 20200921150000,
           "scheda": 1,
-          "enti_p": 287,
+          "enti_p": 303,
           "enti_t": 724,
-          "perc": "20,34",
+          "perc": "20,62",
           "vot_m": null,
           "vot_f": null,
-          "vot_t": 305584,
+          "vot_t": 320816,
           "perc_r": null
         }
       ]
@@ -56,12 +56,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 66,
+            "enti_p": 77,
             "enti_t": 139,
-            "perc": "19,03",
+            "perc": "19,51",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 10843,
+            "vot_t": 16721,
             "perc_r": null
           }
         ]
@@ -122,12 +122,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 151,
+            "enti_p": 156,
             "enti_t": 337,
-            "perc": "20,44",
+            "perc": "20,88",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 200284,
+            "vot_t": 209638,
             "perc_r": null
           }
         ]
