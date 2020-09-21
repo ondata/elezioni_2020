@@ -13,6 +13,15 @@ Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](https://g
 
 **Nota bene**: al momento non è conteggiato il voto all'estero.
 
+## Scrutini
+
+Il file con gli **scrutini** per **comune** è [`scrutiniComuni.csv`](https://github.com/ondata/elezioni_2020/raw/master/referendum/output/scrutiniComuni.csv).
+
+**Nota bene**:
+
+- al momento non è conteggiato il voto all'estero;
+- i dati non sono ancora definitivi (fare riferimento alle colonne `sezioni_totali` e `sezioni_pervenute`)
+
 # Ringraziamenti
 
 Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gli stimoli e la collaborazione.
