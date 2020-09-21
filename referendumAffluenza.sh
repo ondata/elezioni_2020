@@ -81,3 +81,7 @@ mv "$folder"/referendum/processing/tmp2.tsv "$folder"/referendum/processing/affl
 mlr -I --tsv reorder -f "CODICE ISTAT" "$folder"/referendum/processing/affluenzaComuni.tsv
 
 sed -i -r 's/,/\./g' "$folder"/referendum/processing/affluenzaComuni.tsv
+
+rm "$folder"/referendum/processing/*.csv
+
+mlr --t2c cat "$folder"/referendum/processing/affluenzaComuni.tsv >"$folder"/referendum/processing/affluenzaComuni.csv
