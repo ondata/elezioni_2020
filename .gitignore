@@ -1,0 +1,4 @@
+tmp*
+referendum/processing/*.csv
+referendum/rawdata/*.csv
+referendum/rawdata/*.json
