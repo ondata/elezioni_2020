@@ -6,7 +6,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ESTERO",
     "area": "E",
-    "dt_agg": 20200921203514
+    "dt_agg": 20200921204453
   },
   "note": null,
   "scheda": [
@@ -33,12 +33,12 @@
           "com": 1,
           "dt_com": 20200921150000,
           "scheda": 1,
-          "enti_p": 185,
+          "enti_p": 211,
           "enti_t": 724,
-          "perc": "20,92",
+          "perc": "20,63",
           "vot_m": null,
           "vot_f": null,
-          "vot_t": 171519,
+          "vot_t": 197892,
           "perc_r": null
         }
       ]
@@ -56,12 +56,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 60,
+            "enti_p": 65,
             "enti_t": 139,
-            "perc": "18,84",
+            "perc": "19,04",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 10542,
+            "vot_t": 10843,
             "perc_r": null
           }
         ]
@@ -78,7 +78,7 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 11,
+            "enti_p": 12,
             "enti_t": 181,
             "perc": "14,86",
             "vot_m": null,
@@ -100,12 +100,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 14,
+            "enti_p": 19,
             "enti_t": 67,
-            "perc": "18,63",
+            "perc": "17,81",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 12478,
+            "vot_t": 16518,
             "perc_r": null
           }
         ]
@@ -122,12 +122,12 @@
             "com": 1,
             "dt_com": 20200921150000,
             "scheda": 1,
-            "enti_p": 100,
+            "enti_p": 115,
             "enti_t": 337,
-            "perc": "22,13",
+            "perc": "21,74",
             "vot_m": null,
             "vot_f": null,
-            "vot_t": 136736,
+            "vot_t": 158768,
             "perc_r": null
           }
         ]
