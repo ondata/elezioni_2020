@@ -88,3 +88,23 @@ rm "$folder"/referendum/processing/*.csv
 mlr --t2c cat "$folder"/referendum/processing/affluenzaComuni.tsv >"$folder"/referendum/processing/affluenzaComuni.csv
 
 mlr --csv cat "$folder"/referendum/processing/affluenzaComuni.csv >"$folder"/referendum/output/affluenzaComuni.csv
+
+
+## dati nazionali
+
+curl -Lks 'https://eleapi.interno.gov.it/siel/PX/votantiFI/DE/20200920/TE/09/SK/01' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://elezioni.interno.gov.it' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://elezioni.interno.gov.it/referendum/votanti/20200920/votantiFI01' \
+  -H 'Accept-Language: en-US,en;q=0.9,it;q=0.8' \
+  -H 'If-Modified-Since: Mon, 21 Sep 2020 16:03:18 GMT' \
+  --compressed | jq . >"$folder"/referendum/output/datiNazionali.json
+
+<"$folder"/referendum/output/datiNazionali.json jq '.enti.ente_p' | mlr --j2c unsparsify >"$folder"/referendum/output/affluenzaItalia.csv
+<"$folder"/referendum/output/datiNazionali.json jq '.enti.enti_f' | mlr --j2c unsparsify >"$folder"/referendum/output/affluenzaRegioni.csv
