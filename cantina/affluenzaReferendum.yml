@@ -2,9 +2,9 @@ name: aggiorna dati affluenza
 
 on:
 #  push:
-#  repository_dispatch:
-#  schedule:
-#    - cron:  '55 */1 * * *'
+  repository_dispatch:
+  schedule:
+    - cron:  '55 */1 * * *'
 
 jobs:
   scheduled:
