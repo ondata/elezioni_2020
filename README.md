@@ -17,6 +17,8 @@ Il file con le **affluenze** per **comune** è [`affluenzaComuni.csv`](https://g
 
 Il file con gli **scrutini** per **comune** è [`scrutiniComuni.csv`](https://github.com/ondata/elezioni_2020/raw/master/referendum/output/scrutiniComuni.csv).
 
+Nello script per scaricare i dati sugli scrutini è stato usato [GNU Parallel](https://www.gnu.org/software/parallel/).
+
 **Nota bene**:
 
 - al momento non è conteggiato il voto all'estero;

@@ -1,6 +1,9 @@
 #!/bin/bash
 
-#set -x
+### requisiti ###
+# miller https://github.com/johnkerl/miller
+# jq https://stedolan.github.io/jq/
+### requisiti ###
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
