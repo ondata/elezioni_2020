@@ -70,7 +70,7 @@ mlr --csv join --ul -j codINT -f "$folder"/regionali/output/comuni.csv then unsp
 mlr --csv cut -x -f codINT "$folder"/regionali/processing/tmp2.csv >"$folder"/regionali/output/comuni.csv
 
 # sposta campo codice ISTAT all'inizio
-mlr -I --csv reorder -f "CODICE ISTAT" "$folder"/regionali/output/candidati.csv
+mlr -I --csv reorder -f "CODICE ISTAT" "$folder"/regionali/output/comuni.csv
 
 # prepara file per JOIN tra dati regionali dei candidati e anagrafica elettorale ed esegui JOIN
 mlr --t2c cut -f "CODICE ISTAT",codINT "$folder"/referendum/resources/anagraficaComuni.tsv >"$folder"/regionali/processing/tmp.csv
@@ -79,7 +79,7 @@ mlr --csv join --ul -j codINT -f "$folder"/regionali/output/candidati.csv then u
 mlr --csv cut -x -f codINT "$folder"/regionali/processing/tmp2.csv >"$folder"/regionali/output/candidati.csv
 
 # sposta campo codice ISTAT all'inizio
-mlr -I --csv reorder -f "CODICE ISTAT" "$folder"/regionali/output/liste.csv
+mlr -I --csv reorder -f "CODICE ISTAT" "$folder"/regionali/output/candidati.csv
 
 # prepara file per JOIN tra dati regionali delle liste e anagrafica elettorale ed esegui JOIN
 mlr --t2c cut -f "CODICE ISTAT",codINT "$folder"/referendum/resources/anagraficaComuni.tsv >"$folder"/regionali/processing/tmp.csv
