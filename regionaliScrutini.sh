@@ -53,7 +53,7 @@ for i in "$folder"/regionali/rawdata/scrutini/*.json; do
   jq <"$i" '[.cand|.[]|select(.liste[0].pos != null)|{posC:.pos,liste}]' | mlr --j2c unsparsify then reshape -r "liste:" -o item,value then filter -x '$value==""' then put '$ln=regextract($item,"[0-9]+");$item=sub($item,".+:","")' then reorder -f posC,ln then reshape -s item,value then put -S '$comune="'"$cod"'"' then reorder -f comune >"$folder"/regionali/processing/scrutini/liste_"$cod".csv
 done
 
-# unici i CSV per tipo
+# unisci i CSV per tipo
 mlr --csv unsparsify "$folder"/regionali/processing/scrutini/int_*.csv >"$folder"/regionali/output/comuni.csv
 mlr --csv unsparsify "$folder"/regionali/processing/scrutini/candidati_*.csv >"$folder"/regionali/output/candidati.csv
 mlr --csv unsparsify "$folder"/regionali/processing/scrutini/liste_*.csv >"$folder"/regionali/output/liste.csv
