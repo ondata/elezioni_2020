@@ -7,7 +7,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ITALIA",
     "area": "I",
-    "dt_agg": 20200922034554
+    "dt_agg": 20200922073853
   },
   "note": null,
   "scheda": [
@@ -20,9 +20,9 @@
     "ente_p": {
       "desc": "ITALIA",
       "cod": null,
-      "ele_m": 22372603,
-      "ele_f": 24046146,
-      "ele_t": 46418749,
+      "ele_m": 22372544,
+      "ele_f": 24046098,
+      "ele_t": 46418642,
       "com": [
         {
           "cod_reg": null,
@@ -74,8 +74,8 @@
           "enti_p": 7903,
           "enti_t": 7903,
           "perc": "53,84",
-          "vot_m": 12380515,
-          "vot_f": 12612403,
+          "vot_m": 12380516,
+          "vot_f": 12612402,
           "vot_t": 24992918,
           "perc_r": null
         }
@@ -782,9 +782,9 @@
         "tipo": "REGIONE",
         "desc": "PUGLIA",
         "cod": 16,
-        "ele_m": 1557536,
-        "ele_f": 1690425,
-        "ele_t": 3247961,
+        "ele_m": 1557477,
+        "ele_f": 1690377,
+        "ele_t": 3247854,
         "com_vot": [
           {
             "com": 1,
@@ -1003,8 +1003,8 @@
             "enti_p": 273,
             "enti_t": 273,
             "perc": "65,89",
-            "vot_m": 921055,
-            "vot_f": 949183,
+            "vot_m": 921056,
+            "vot_f": 949182,
             "vot_t": 1870238,
             "perc_r": null
           }
