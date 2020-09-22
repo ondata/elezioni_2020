@@ -36,7 +36,6 @@ Sono stati estratti tre file CSV, dei dati sulle 4 elezioni regionali presenti s
 
 **Nota bene**:
 
-- al momento non è conteggiato il voto all'estero;
 - i dati non sono ancora definitivi, ultimo aggiornamento alle 13:15 del 22 settembre 2020 (per averne contezza, fare riferimento alle colonne `sz_pres`, `sz_cons`, `sz_tot` presenti nel file `scrutini_comuni.csv`).
 
 # Ringraziamenti
