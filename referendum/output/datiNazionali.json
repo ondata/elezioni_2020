@@ -7,7 +7,7 @@
     "dt_ele": 20200920000000,
     "l_terr": "ITALIA",
     "area": "I",
-    "dt_agg": 20200922073853
+    "dt_agg": 20200922132812
   },
   "note": null,
   "scheda": [
@@ -20,9 +20,9 @@
     "ente_p": {
       "desc": "ITALIA",
       "cod": null,
-      "ele_m": 22372544,
-      "ele_f": 24046098,
-      "ele_t": 46418642,
+      "ele_m": 22372561,
+      "ele_f": 24046116,
+      "ele_t": 46418677,
       "com": [
         {
           "cod_reg": null,
@@ -74,8 +74,8 @@
           "enti_p": 7903,
           "enti_t": 7903,
           "perc": "53,84",
-          "vot_m": 12380516,
-          "vot_f": 12612402,
+          "vot_m": 12380616,
+          "vot_f": 12612302,
           "vot_t": 24992918,
           "perc_r": null
         }
@@ -434,9 +434,9 @@
         "tipo": "REGIONE",
         "desc": "LAZIO",
         "cod": 12,
-        "ele_m": 2087400,
+        "ele_m": 2087398,
         "ele_f": 2289524,
-        "ele_t": 4376924,
+        "ele_t": 4376922,
         "com_vot": [
           {
             "com": 1,
@@ -550,9 +550,9 @@
         "tipo": "REGIONE",
         "desc": "LOMBARDIA",
         "cod": 3,
-        "ele_m": 3643228,
-        "ele_f": 3866036,
-        "ele_t": 7509264,
+        "ele_m": 3643170,
+        "ele_f": 3865973,
+        "ele_t": 7509143,
         "com_vot": [
           {
             "com": 1,
@@ -782,9 +782,9 @@
         "tipo": "REGIONE",
         "desc": "PUGLIA",
         "cod": 16,
-        "ele_m": 1557477,
-        "ele_f": 1690377,
-        "ele_t": 3247854,
+        "ele_m": 1557554,
+        "ele_f": 1690458,
+        "ele_t": 3248012,
         "com_vot": [
           {
             "com": 1,
@@ -945,8 +945,8 @@
             "enti_p": 390,
             "enti_t": 390,
             "perc": "35,39",
-            "vot_m": 714044,
-            "vot_f": 686468,
+            "vot_m": 714144,
+            "vot_f": 686368,
             "vot_t": 1400512,
             "perc_r": null
           }
