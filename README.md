@@ -22,7 +22,7 @@ Nello script per scaricare i dati sugli scrutini è stato usato [GNU Parallel](h
 **Nota bene**:
 
 - al momento non è conteggiato il voto all'estero;
-- i dati non sono ancora definitivi, ultimo aggiornamento alle 8:00 del 22 settembre 2020 (fare riferimento alle colonne `sezioni_totali` e `sezioni_pervenute`).
+- i dati non sono ancora definitivi (fare riferimento alle colonne `sezioni_totali` e `sezioni_pervenute`).
 
 # Regionali
 
@@ -36,7 +36,7 @@ Sono stati estratti tre file CSV, dei dati sulle 4 elezioni regionali presenti s
 
 **Nota bene**:
 
-- i dati non sono ancora definitivi, ultimo aggiornamento alle 19:50 del 22 settembre 2020 (per averne contezza, fare riferimento alle colonne `sz_pres`, `sz_cons`, `sz_tot` presenti nel file `scrutini_comuni.csv`).
+- i dati non sono ancora definitivi (per averne contezza, fare riferimento alle colonne `sz_pres`, `sz_cons`, `sz_tot` presenti nel file `scrutini_comuni.csv`).
 
 # Ringraziamenti
 
