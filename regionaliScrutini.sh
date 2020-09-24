@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -14,6 +14,8 @@ mkdir -p "$folder"/regionali/resources
 
 # svuota cartella dati grezzi
 rm "$folder"/regionali/rawdata/*
+rm "$folder"/regionali/rawdata/scrutini/*
+rm "$folder"/regionali/processing/scrutini/*
 
 # scarica anagrafica ripartizioni territoriali
 
@@ -30,7 +32,7 @@ jq <"$folder"/regionali/resources/ita.json '.enti' | mlr --j2t unsparsify then f
 
 # esegui il loop, scarica dati grezzi in format JSON e produci JSON
 while IFS=$'\t' read -r cod desc RE CR CM; do
-  curl 'https://eleapi.interno.gov.it/siel/PX/scrutiniR/DE/20200920/TE/07/RE/'"$RE"'/PR/'"$CR"'/CM/'"$CM"'' \
+  curl -ksL 'https://eleapi.interno.gov.it/siel/PX/scrutiniR/DE/20200920/TE/07/RE/'"$RE"'/PR/'"$CR"'/CM/'"$CM"'' \
     -H 'Connection: keep-alive' \
     -H 'Accept: application/json, text/javascript, */*; q=0.01' \
     -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
