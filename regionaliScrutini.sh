@@ -96,3 +96,14 @@ mlr -I --csv reorder -f "CODICE ISTAT" "$folder"/regionali/output/liste.csv
 for i in comuni candidati liste; do
   mv "$folder"/regionali/output/"$i".csv "$folder"/regionali/output/scrutini_"$i".csv
 done
+
+curl -Lks "https://github.com/aborruso/archivioDatiPubbliciPreziosi/raw/master/docs/archivioComuniANPR/comuniANPR_ISTAT.csv" >"$folder"/regionali/resources/comuniANPR_ISTAT.csv
+mlr -I --csv cut -f "CODISTAT","IDPROVINCIAISTAT","IDREGIONE","Denominazione Regione","Denominazione dell'Unità territoriale sovracomunale (valida a fini statistici)" \
+then rename "CODISTAT","CODICE ISTAT" "$folder"/regionali/resources/comuniANPR_ISTAT.csv
+
+
+# aggiungi info ISTAT
+for i in scrutini_comuni scrutini_candidati scrutini_liste; do
+  mlr --csv join --ul -j "CODICE ISTAT" -f "$folder"/regionali/output/"$i".csv then unsparsify "$folder"/regionali/resources/comuniANPR_ISTAT.csv >"$folder"/regionali/output/tmp.csv
+  mv "$folder"/regionali/output/tmp.csv "$folder"/regionali/output/"$i".csv
+done
