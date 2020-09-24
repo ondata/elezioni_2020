@@ -19,10 +19,7 @@ Il file con gli **scrutini** per **comune** è [`scrutiniComuni.csv`](https://gi
 
 Nello script per scaricare i dati sugli scrutini è stato usato [GNU Parallel](https://www.gnu.org/software/parallel/).
 
-**Nota bene**:
-
-- al momento non è conteggiato il voto all'estero;
-- i dati non sono ancora definitivi (fare riferimento alle colonne `sezioni_totali` e `sezioni_pervenute`).
+**Nota bene**: al momento non è conteggiato il voto all'estero.
 
 # Regionali
 
@@ -34,9 +31,6 @@ Sono stati estratti tre file CSV, dei dati sulle 4 elezioni regionali presenti s
 - [`scrutini_candidati.csv`](regionali/output/scrutini_candidati.csv), con i dati di riepilogo sui candidati;
 - [`scrutini_liste.csv`](regionali/output/scrutini_liste.csv), con i dati di riepilogo delle eventuali liste che appoggiano i candidati.
 
-**Nota bene**:
-
-- i dati non sono ancora definitivi (per averne contezza, fare riferimento alle colonne `sz_pres`, `sz_cons`, `sz_tot` presenti nel file `scrutini_comuni.csv`).
 
 # Ringraziamenti
 
