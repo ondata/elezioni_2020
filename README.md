@@ -35,3 +35,8 @@ Sono stati estratti tre file CSV, dei dati sulle 4 elezioni regionali presenti s
 # Ringraziamenti
 
 Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gli stimoli e la collaborazione.
+
+# Chi ha usato questi dati
+
+- "[Mappe sul Referendum](https://twitter.com/Ruffino_Lorenzo/status/1308325183258865664)", di [Lorenzo Ruffino](https://twitter.com/Ruffino_Lorenzo);
+- "[Per gli uomini è stato più facile andare a votare?](https://www.instagram.com/p/CFwrnVKFYdl/?igshid=f0wptpkx7bln)", di [Donata Columbro](https://twitter.com/dontyna)
