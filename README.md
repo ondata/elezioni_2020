@@ -41,5 +41,5 @@ Grazie a [Salvatore Fiandaca](https://twitter.com/totofiandaca) per gli stimoli 
 - "[Mappe sul Referendum](https://twitter.com/Ruffino_Lorenzo/status/1308325183258865664)", di [Lorenzo Ruffino](https://twitter.com/Ruffino_Lorenzo);
 - "[Per gli uomini è stato più facile andare a votare?](https://www.instagram.com/p/CFwrnVKFYdl/?igshid=f0wptpkx7bln)", di [Donata Columbro](https://twitter.com/dontyna);
 - "[Elezioni regionali 2020 in Puglia](https://gjrichter.github.io/viz/Elezioni/gallery/Regionali_2020_Puglia/)", di [Guenter Richter](https://twitter.com/grichter);
-- "[La word cloud dei votanti al referendum](https://twitter.com/fromAlias/status/1311915787079294976)", di [Fernando Cinquegrani](https://twitter.com/fromAlias).
+- "[La word cloud dei comuni per numero di votanti al referendum](https://twitter.com/fromAlias/status/1311915787079294976)", di [Fernando Cinquegrani](https://twitter.com/fromAlias).
 
