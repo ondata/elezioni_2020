@@ -6,3 +6,4 @@ referendum/processing/scrutini/*.csv
 referendum/rawdata/*.json
 regionali/processing/scrutini/*
 regionali/rawdata/scrutini/*
+regionaliMarche/rawdata/*
