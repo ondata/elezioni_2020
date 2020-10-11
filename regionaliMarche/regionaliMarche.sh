@@ -13,6 +13,7 @@ mkdir -p "$folder"/resources
 
 mlr --c2n cut -f value "$folder"/resources/listaComuni.csv >"$folder"/processing/tmpLista
 
+# scarica dati liste
 download="no"
 
 if [[ "$download" == "yes" ]]; then
@@ -23,6 +24,7 @@ fi
 
 ### liste ###
 
+# per ogni file delle liste, quindi per ogni comune, estrai i vari oggetti contenuti nel JSON
 for i in {1..228}; do
 
   # anagrCandidati
@@ -51,6 +53,7 @@ for i in {1..228}; do
 
 done
 
+# unisci per tipo di file, i CSV estratti per ogni comune
 mlr --csv cat "$folder"/rawdata/liste_0_*-anagrCandidati.csv >"$folder"/processing/anagrCandidati.csv
 
 mlr --csv cat "$folder"/rawdata/liste_0_*-totSezioni.csv >"$folder"/processing/totSezioni.csv
