@@ -39,14 +39,13 @@ Sul [sito dedicato delle regioni Marche](https://dati.elezioni.marche.it/) è po
 Due i passi che hanno portato alla pubblicazione:
 
 - creare uno [script](./regionaliMarche/regionaliMarche.sh), che a partire dalle API che alimenta il sito regionale scaricasse i [dati grezzi](./regionaliMarche/processing);
-- ristrutturarli con uno schema simile (non è ad oggi al 100% conforme) a quelli delle altre regione. Di questo si è occupato [Guenter Richter](https://twitter.com/grichter) a cui va il nostro grazie.
+- ristrutturarli con uno schema simile (non è ad oggi al 100% conforme) a quelli delle altre regione. Di questo si è occupato [Guenter Richter](https://twitter.com/grichter) a cui va il nostro grazie (le sue [mappe dedicate](https://gjrichter.github.io/viz/Elezioni/gallery/Regionali_2020_Marche/)).
 
 Tre file CSV di output:
 
 - [`scrutini_comuni.csv`](regionali/output/scrutini_comuni-marche.csv), con i dati di riepilogo per ogni comune;
 - [`scrutini_candidati.csv`](regionali/output/scrutini_candidati-marche.csv), con i dati di riepilogo sui candidati;
 - [`scrutini_liste.csv`](regionali/output/scrutini_liste-marche.csv), con i dati di riepilogo delle eventuali liste che appoggiano i candidati.
-
 
 # Ringraziamenti
 
